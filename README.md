@@ -1,10 +1,10 @@
 # Royal Motor World
 
-## Link: https://rock-n-riding.web.app/
+## Link: https://royal-motor-world.web.app/
 
 ## Server Side: https://github.com/programming-hero-web-course-4/niche-website-server-side-ParveenNuzhat
 
-## Client Side: https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-ParveenNuzhat
+## Client Side: https://github.com/programming-hero-web-course-4/niche-website-client-side-ParveenNuzhat
 
 
 ### Description 
