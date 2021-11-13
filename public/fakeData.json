@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Rolls-Royce Silver Dawn",
+        "founded": 1949,
+        "img": "https://i.ibb.co/WHmsh8Z/172-1725071-1953-rolls-royce-silver-dawn-drophead-hd-png.png",
+        "description": "The name was intended to mark the dawn of a new era for the world and Rolls-Royce's place in it. They're extremely rare: only 3 of the original 28 dropheads remain in the U.S.",
+        "price": 53760
+    },
+    {
+        "name": "Mercedes SL 300 Gullwing",
+        "founded": 1954,
+        "img": "https://i.ibb.co/92j4pVh/57-W181201-157-2096-5-a.jpg",
+        "description": "Among the first sports cars of the post-war era, this was the fastest production car of its time. As the first direct fuel injection series production car, the SL 300 could travel at an eye-popping 160 miles per hour.",
+        "price": 500000
+    },
+    {
+        "name": "Ferrari 250 GTO",
+        "founded": 1962,
+        "img": "https://i.ibb.co/gSTL5qh/RML-Ferrari-250-gt-swb-2.jpg",
+        "description": "One of the top sports car of all time. An early model fetched $38 million at Bonhams' Quail Lodge auction at the Pebble Beach Concours d'Elegance 2 years ago",
+        "price": 70000000
+    },
+    {
+        "name": "Lamborghini Miura",
+        "founded": 1966,
+        "img": "https://i.ibb.co/vmNyjzR/1971-lamborghini-miura-sv-1.jpg",
+        "description": "This is a sports car produced by Italian automaker Lamborghini and the first super car with a rear mid-engined two-seat layout. Total 800 cars were built in 1973 and now only 400 are believed to be in existence.",
+        "price": 3000000
+    },
+    {
+        "name": "McLaren F1",
+        "founded": 1992,
+        "img": "https://i.ibb.co/FX1jMWf/5d570d63cd97843fb50fea6b-width-1136-format-jpeg.jpg",
+        "description": "Power, pace and peerless quality, the legendary F1 is a technological masterpiece. The fastest production car of its time. The finest sports car of its generation. For many, the greatest super car ever built.",
+        "price": 20500000
+    },
+    {
+        "name": "DeTomaso Pantera",
+        "founded": 1970,
+        "img": "https://i.ibb.co/jHN630g/1972-detomaso-pantera-a.jpg",
+        "description": "This is a mid-engine sports car produced by Italian automobile manufacturer De Tomaso. The Pantera was the automaker's most popular model, with over 7,000 manufactured over its twenty-year production run.",
+        "price": 50000
+    },
+    {
+        "name": "Jaguar E-Type",
+        "founded": 1961,
+        "img": "https://i.ibb.co/CMhVny1/jaguar-e-type-electric-2.jpg",
+        "description": "Once called the most beautiful car ever made by Enzo Ferrari, the 1960s Jaguar E-Type is a classic sports car mainstay. So far only 18 cars are believed to be in existence.",
+        "price": 72700
+    },
+    {
+        "name": "Shelby GT350",
+        "founded": 1965,
+        "img": "https://i.ibb.co/1rrZpx1/1962-shelby-cobra-a.jpg",
+        "description": "Also known as the Cobra, this high-performance descendant of the Ford Mustang was a darling of the late 1960s. With Ford's V8 engine, the Shelby GT350 was a legitimate racecar for the street.",
+        "price": 59140
+    },
+    {
+        "name": "Ford Model T",
+        "founded": 1908,
+        "img": "https://i.ibb.co/LYq00g3/gallery-1462806127-1922-ford-model-t.jpg",
+        "description": " It is generally regarded as the first affordable automobile, which made car travel available to middle-class Americans. With 15 million sold, it was the most sold car in 1972 and still stood eighth on the top-ten list, as of 2012.",
+        "price": 850
+    },
+    {
+        "name": "Dodge Viper GTS",
+        "founded": 1996,
+        "img": "https://i.ibb.co/3vgByhJ/dodge-viper-gts.jpg",
+        "description": "This has been one of the few true American performance cars since early Nineties. With an engine that can compete with European luxury cars, the Viper has been a favorite among car enthusiasts for a few decades.",
+        "price": 107995
+    }
+]

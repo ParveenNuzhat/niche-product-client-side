@@ -1,0 +1,22 @@
+.add-car form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.add-car form input, textarea{
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 576px){
+    .add-car form input{
+        width: 100%;
+    }
+
+    .add-car textarea{
+        width: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+.booking form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.booking form input, textarea{
+    width: 50%;
+    margin-bottom: 25px;
+}

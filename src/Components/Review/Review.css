@@ -1,0 +1,30 @@
+.review form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.review form input{
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+.review textarea{
+    height: 200px;
+}
+
+@media (max-width: 576px){
+
+    .review-title{
+        margin-top: 15px;
+    }
+    .review form input{
+        width: 100%;
+    }
+    .review textarea{
+        width: 100%;
+    }
+
+}

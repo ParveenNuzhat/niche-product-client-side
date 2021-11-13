@@ -1,0 +1,10 @@
+.model-card img{
+    height: 200px;
+    min-height: 200px;
+    border-radius: 5px;
+}
+
+.model-card{
+    height: 250px;
+    min-height: 250px;
+}

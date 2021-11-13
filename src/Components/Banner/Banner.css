@@ -1,0 +1,33 @@
+.header-background{
+    background-image: url('../../Images/banner-5.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    box-shadow: 5px 5px 15px rgb(146, 121, 121);
+}
+
+.banner-title{
+    font-family: cursive;
+    font-size: 65px;
+    font-weight: 900;
+    color: aliceblue;
+    float: right;
+    text-align: center;
+    padding: 55px;
+    margin-right: 80px;
+}
+
+@media (max-width: 576px){
+   .header-background{
+       max-height: 300px;
+   }
+   .banner-title{
+       color: aqua;
+       font-size: 35px;
+       padding: 10px;
+       float: right;
+       margin-right: 5px;
+   }
+}

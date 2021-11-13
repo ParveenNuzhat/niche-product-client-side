@@ -1,0 +1,8 @@
+@media (max-width: 576px){
+    .register-container{
+        width: 100%!important;
+    }
+    .register-form{
+        width: 100%!important;
+    }
+}
