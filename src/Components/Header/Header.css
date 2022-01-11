@@ -1,15 +1,22 @@
-.menu-text{
-    margin-right: 35px;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 55px;
+.menu-text {
+  margin-right: 35px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 55px;
 }
 
-.header-text{
-    color: #1affff!important;
-    font-size: 25px;
-    font-weight: 700;
-    font-family: 'Grand Hotel', cursive;
+.header-text {
+  color: #1affff !important;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Grand Hotel", cursive;
+}
+
+.menu-button {
+  background: rgb(134, 113, 74);
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
 }

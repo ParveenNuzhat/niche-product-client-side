@@ -1,0 +1,7 @@
+.car-img{
+  transition: .9s;
+}
+
+.car-img:hover{
+  transform: scale(1.1);
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import useAuth from '../../Hook/useAuth';
 import './Header.css'
@@ -23,7 +23,7 @@ const Header = () => {
                         {user?.email && <Navbar.Brand to='/home' className='header-text text-danger'>{user.displayName} </Navbar.Brand>}
                         {
                             user?.email ?
-                                <button onClick={logOut} className='ms-3'>Logout</button>
+                                <Button onClick={logOut} className='menu-button ms-2'>Log out</Button>
                                 :
                                 <NavLink activeStyle={activeStyle} className='menu-text' to="/login">Login</NavLink>
                         }

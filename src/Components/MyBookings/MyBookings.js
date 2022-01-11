@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Table } from 'react-bootstrap';
 import useAuth from '../../Hook/useAuth';
+import './MyBookings.css'
 
 const MyBookings = () => {
     const { user } = useAuth();
@@ -34,20 +35,20 @@ const MyBookings = () => {
 
     return (
         <div style={{ height: '45vh' }}>
-            <h2 className='text-center'>My Bookings</h2>
+            <h2 className='text-center' style={{fontSize:'40px', fontWeight:'900', color: 'orange', fontFamily: 'Dancing Script, cursive'}}>My Bookings</h2>
             <Table striped bordered hover className='mt-5 w-75 mx-auto'>
                 <thead style={{ backgroundColor: '#cc99ff' }}>
                     <tr>
                         <th>Car Model</th>
-                        <th>Price</th>
+                        <th>Price($)</th>
                         <th>Action</th>
                     </tr>
                 </thead>
                 {bookingList.map(booking =>
                     <tbody>
                         <tr>
-                            <td>{booking?.carInfo?.name}</td>
-                            <td>$ {booking?.carInfo?.price}</td>
+                            <td><b>{booking?.carInfo?.name}</b></td>
+                            <td><b>{booking?.carInfo?.price}</b></td>
                             <td><Button onClick={() => handleDelete(booking._id)}>Delete</Button></td>
                         </tr>
                     </tbody>

@@ -14,8 +14,8 @@ const Models = () => {
     return (
         <div>
             <h2 style={{ textAlign: 'center', fontFamily: 'Grand Hotel, cursive', fontWeight: '900', fontSize: '40px', color: '#A7778D' }} className='service-header mt-5'><span style={{ color: 'brown' }}>Vintage</span> Car Models</h2>
-            <Container style={{ marginTop: '40px' }} className='mb-5'>
-                <Row md={2} className='mx-auto gy-5'>
+            <Container style={{ marginTop: '40px' }} className='mb-5 text-center'>
+                <Row md={2} className='gy-5'>
                     {
                         cars?.map(car => <Model
                             key= {car._id}

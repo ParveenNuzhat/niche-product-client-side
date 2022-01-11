@@ -33,7 +33,7 @@ const Footer = () => {
                                 <h6 className="my-3 footer-header">Contact Us</h6>
                                 <p>A: New York City, USA</p>
                                 <p>App: Viber, Whatsapp</p>
-                                <p>E: rock.riding@gmail.com</p>
+                                <p>E: royal.motor@gmail.com</p>
                                 <p>P: +8801711111111</p>
                             </div>
                         </div>

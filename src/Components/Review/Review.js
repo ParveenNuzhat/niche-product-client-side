@@ -20,9 +20,10 @@ const Review = () => {
 
     return (
         <div className='review'>
-            <h2 className='text-center review-title'>Please Leave Us a Feedback</h2>
+            <h4 className='text-center review-title' style={{fontSize:'30px', fontWeight:'900', color: 'orange', fontFamily: 'Dancing Script, cursive'}}>Please Leave Us a Feedback</h4>
             <form onSubmit={handleSubmit(onSubmit)} className='mt-4'>
                 <input {...register("name", { required: true, maxLength: 20 })} value={user.displayName} placeholder="Name" />
+                <input {...register("img")} placeholder="Image URL" value="https://i.ibb.co/3dHmQbL/dentist-04.jpg" />
                 <input type="number" {...register("ratings", { min: 0, max: 5 })} placeholder='Ratings' />
                 <textarea type="text" {...register("comments", { required: true })} placeholder="Comments"></textarea>
                 <input type="submit" value="Submit" />

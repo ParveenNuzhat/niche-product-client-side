@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Fluffy Pancakes",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia recusandae distinctio non veniam qui quos hic nemo consectetur sed vel.",
+        "img": "https://i.ibb.co/kSTntHt/Kefi-QG6-QRMGF2-Ra-VL567-milk-free-egg-free-pancakes-0476.jpg"
+    },
+    {
+        "title": "Strawberry Peach Sangria",
+        "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+        "img": "https://i.ibb.co/Lnsh449/Summer-Rose-Sangria.jpg"
+    },
+    {
+        "title": "Italian Lasagna",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia recusandae distinctio non veniam qui quos hic nemo consectetur sed vel.",
+        "img": "https://i.ibb.co/gWy04hs/1933-6639-mx.jpg"
+    },
+    {
+        "title": "Roasted Veggie Summer Salad",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia recusandae distinctio non veniam qui quos hic nemo consectetur sed vel.",
+        "img": "https://i.ibb.co/5kbJZwd/Warmquinoaandroastedvegetablesalad-XXL.jpg"
+    },
+    {
+        "title": "Light Fettuccine Alfredo",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia recusandae distinctio non veniam qui quos hic nemo consectetur sed vel.",
+        "img": "https://i.ibb.co/JsM0NMn/instant-pot-shrimp-alfredo-02.webp"
+    },
+    {
+        "title": "Avocado Quinoa Salad",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia recusandae distinctio non veniam qui quos hic nemo consectetur sed vel.",
+        "img": "https://i.ibb.co/tBhY4Wv/Quinoa-Avocado-Salad-Recipe.jpg"
+    }
+]

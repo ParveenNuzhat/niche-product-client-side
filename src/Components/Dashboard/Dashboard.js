@@ -10,6 +10,7 @@ import ManageCars from '../ManageCars/ManageCars';
 import MyBookings from '../MyBookings/MyBookings';
 import Payment from '../Payment/Payment';
 import Review from '../Review/Review';
+import './Dashboard.css'
 
 const Dashboard = () => {
     const { user, logOut } = useAuth();
@@ -29,13 +30,14 @@ const Dashboard = () => {
             });
     }, [user?.email]);
 
+
     return (
-        <div>
-            <h2 className='text-center mt-5'>Dashboard</h2>
-            <Container className='mt-5 w-75 mx-auto'>
+        < div >
+            <Container className='my-5 w-75 mx-auto py-5'>
                 <Row>
-                    <Col sm={3}>
-                        <Nav defaultActiveKey="/home" className="flex-column">
+                    <Col md={3} sm={12} >
+                        <Nav defaultActiveKey="/home" className="flex-column p-5" style={{ height: '490px', backgroundColor: '#ffb84d', borderRadius: '10px', fontSize: '18px', fontWeight: 'bold' }}>
+                            <Nav.Link as={Link} to={`${url}`} className="bg-success text-white mt-3">Dashboard</Nav.Link>
                             {isAdmin ?
                                 <>
                                     <Nav.Link as={Link} to={`${url}/addProduct`}>Add a Car</Nav.Link>
@@ -51,11 +53,11 @@ const Dashboard = () => {
                                 </>
                             }
 
-                            <Nav.Link role="button" onClick={() => logOut()} className="bg-secondary text-white">Logout</Nav.Link>
+                            <Nav.Link role="button" onClick={() => logOut()} className="bg-success text-white">Logout</Nav.Link>
                         </Nav>
                     </Col>
 
-                    <Col sm={9}>
+                    <Col md={9} sm={12} className='text-center'>
                         <Switch>
                             <Route path={`${path}/payment`}>
                                 <Payment></Payment>
@@ -82,7 +84,7 @@ const Dashboard = () => {
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </div >
     );
 };
 
